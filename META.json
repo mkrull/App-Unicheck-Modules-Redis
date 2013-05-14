@@ -41,7 +41,7 @@
    "provides" : {
       "Uninets::Check::Modules::Redis" : {
          "file" : "lib/Uninets/Check/Modules/Redis.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -53,5 +53,5 @@
          "url" : "https://github.com/uninets/Uninets-Check-Modules-Redis"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
