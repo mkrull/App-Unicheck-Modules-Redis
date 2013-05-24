@@ -50,7 +50,7 @@ TODO: {
     "placeholder date/time"       => qr(Date/time)
   );
 
-  module_boilerplate_ok('lib/Uninets/Check/Modules/Redis.pm');
+  module_boilerplate_ok('lib/App/Unicheck/Modules/Redis.pm');
 
 
 }
