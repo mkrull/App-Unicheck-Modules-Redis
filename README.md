@@ -1,6 +1,6 @@
 # NAME
 
-App::Unicheck::Modules::Redis - App::Unicheck module to check redis servers.
+App::Unicheck::Modules::Redis - App::Unicheck module to check redis servers. [![Build Status](https://secure.travis-ci.org/uninets/App-Unicheck-Modules-Redis.png)](http://travis-ci.org/uninets/App-Unicheck-Modules-Redis)
 
 # VERSION
 
@@ -10,8 +10,8 @@ Version 0.01
 
 App::Unicheck::Modules::Redis can check used memory and reachability of redis servers.
 
-	# to show available information on parameters run
-	unicheck --info Redis
+    # to show available information on parameters run
+    unicheck --info Redis
 
 # ACTIONS
 
@@ -19,17 +19,17 @@ App::Unicheck::Modules::Redis can check used memory and reachability of redis se
 
 Check if the server is reachable.
 
-	# check default localhost:6379
-	unicheck Redis reachable
+    # check default localhost:6379
+    unicheck Redis reachable
 
-	# check specific host:port
-	unicheck Redis reachable --host example.com --port 1234
+    # check specific host:port
+    unicheck Redis reachable --host example.com --port 1234
 
 ## size
 
 Get the size redis uses in memory.
 
-	unicheck Redis size
+    unicheck Redis size
 
 # AUTHOR
 
