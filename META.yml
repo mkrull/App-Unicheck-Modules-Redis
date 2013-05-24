@@ -1,5 +1,5 @@
 ---
-abstract: 'Uninets::Check module to check redis servers.'
+abstract: 'App::Unicheck module to check redis servers.'
 author:
   - 'Matthias Krull <<m.krull@uninets.eu>>'
 build_requires:
@@ -12,12 +12,12 @@ license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Uninets-Check-Modules-Redis
+name: App-Unicheck-Modules-Redis
 no_index:
   directory:
     - t
 provides:
-  Uninets::Check::Modules::Redis:
+  App::Unicheck::Modules::Redis:
     file: lib/Uninets/Check/Modules/Redis.pm
     version: 0.02
 requires:
@@ -27,5 +27,5 @@ requires:
   perl: v5.10.1
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
-  repository: https://github.com/uninets/Uninets-Check-Modules-Redis
+  repository: https://github.com/uninets/App-Unicheck-Modules-Redis
 version: 0.02

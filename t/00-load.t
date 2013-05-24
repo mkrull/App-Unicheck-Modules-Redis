@@ -7,7 +7,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'Uninets::Check::Modules::Redis' ) || print "Bail out!\n";
+    use_ok( 'App::Unicheck::Modules::Redis' ) || print "Bail out!\n";
 }
 
-diag( "Testing Uninets::Check::Modules::Redis $Uninets::Check::Modules::Redis::VERSION, Perl $], $^X" );
+diag( "Testing App::Unicheck::Modules::Redis $App::Unicheck::Modules::Redis::VERSION, Perl $], $^X" );

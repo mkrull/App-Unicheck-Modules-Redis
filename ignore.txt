@@ -14,5 +14,5 @@ inc/
 nytprof.out
 pod2htm*.tmp
 pm_to_blib
-Uninets-Check-Modules-Redis-*
-Uninets-Check-Modules-Redis-*.tar.gz
+App-Unicheck-Modules-Redis-*
+App-Unicheck-Modules-Redis-*.tar.gz

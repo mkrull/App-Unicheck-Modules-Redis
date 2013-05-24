@@ -1,5 +1,5 @@
 {
-   "abstract" : "Uninets::Check module to check redis servers.",
+   "abstract" : "App::Unicheck module to check redis servers.",
    "author" : [
       "Matthias Krull <<m.krull@uninets.eu>>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Uninets-Check-Modules-Redis",
+   "name" : "App-Unicheck-Modules-Redis",
    "no_index" : {
       "directory" : [
          "t"
@@ -39,7 +39,7 @@
       }
    },
    "provides" : {
-      "Uninets::Check::Modules::Redis" : {
+      "App::Unicheck::Modules::Redis" : {
          "file" : "lib/Uninets/Check/Modules/Redis.pm",
          "version" : "0.02"
       }
@@ -50,7 +50,7 @@
          "http://www.perlfoundation.org/artistic_license_2_0"
       ],
       "repository" : {
-         "url" : "https://github.com/uninets/Uninets-Check-Modules-Redis"
+         "url" : "https://github.com/uninets/App-Unicheck-Modules-Redis"
       }
    },
    "version" : "0.02"

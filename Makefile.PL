@@ -3,7 +3,7 @@ require 5.010001;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'NAME' => 'Uninets::Check::Modules::Redis',
+  'NAME' => 'App::Unicheck::Modules::Redis',
   'VERSION_FROM' => 'lib/Uninets/Check/Modules/Redis.pm',
   'PREREQ_PM' => {
                    'JSON' => 0,

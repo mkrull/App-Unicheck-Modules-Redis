@@ -1,4 +1,4 @@
-package Uninets::Check::Modules::Redis;
+package App::Unicheck::Modules::Redis;
 
 use 5.10.1;
 use strict;
@@ -11,7 +11,7 @@ use JSON;
 
 =head1 NAME
 
-Uninets::Check::Modules::Redis - Uninets::Check module to check redis servers.
+App::Unicheck::Modules::Redis - App::Unicheck module to check redis servers.
 
 =head1 VERSION
 
@@ -24,7 +24,7 @@ our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
-Uninets::Check::Modules::Redis can check used memory and reachability of redis servers.
+App::Unicheck::Modules::Redis can check used memory and reachability of redis servers.
 
 	# to show available information on parameters run
 	unicheck --info Redis
@@ -159,8 +159,8 @@ Matthias Krull, C<< <<m.krull at uninets.eu>> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-uninets-check-modules-redis at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Uninets-Check-Modules-Redis>.  I will be notified, and then you'll
+Please report any bugs or feature requests to C<bug-app-unicheck-modules-redis at rt.cpan.org>, or through
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-Unicheck-Modules-Redis>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 
@@ -170,7 +170,7 @@ automatically be notified of progress on your bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Uninets::Check::Modules::Redis
+    perldoc App::Unicheck::Modules::Redis
 
 
 You can also look for information at:
@@ -179,19 +179,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Uninets-Check-Modules-Redis>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Unicheck-Modules-Redis>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Uninets-Check-Modules-Redis>
+L<http://annocpan.org/dist/App-Unicheck-Modules-Redis>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Uninets-Check-Modules-Redis>
+L<http://cpanratings.perl.org/d/App-Unicheck-Modules-Redis>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Uninets-Check-Modules-Redis/>
+L<http://search.cpan.org/dist/App-Unicheck-Modules-Redis/>
 
 =back
 
@@ -242,4 +242,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Uninets::Check::Modules::Redis
+1; # End of App::Unicheck::Modules::Redis
